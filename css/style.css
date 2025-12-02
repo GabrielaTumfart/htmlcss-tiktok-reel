@@ -85,4 +85,12 @@ da rimuovere una volta concluso
 	border: 2px dashed #fff;
 }
 
-/* --------------------- */
+/* Le mie modifiche */
+.reel-header {
+	display: flex;
+}
+
+.header-link {
+	display: inline-block;
+	padding: 0 10px;
+}

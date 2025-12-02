@@ -9,6 +9,11 @@ body {
 	font-family: 'TikTok Sans', sans-serif;
 }
 
+/* Regola di Reset in css */
+ul {
+	list-style: none;
+}
+
 video {
 	height: 100%;
 	width: 100%;

@@ -165,8 +165,10 @@ da rimuovere una volta concluso
 .reel-item-text {
 	display: block;
 	font-size: 0.7rem;
+}
 
-
+.reel-author {
+	font-weight: 600;
 }
 
 

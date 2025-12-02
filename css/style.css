@@ -167,9 +167,18 @@ da rimuovere una volta concluso
 	font-size: 0.7rem;
 }
 
-.reel-author {
-	font-weight: 600;
+/* footer */
+.reel-infos {
+	max-width: 70%;
 }
 
+.reel-author {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.reel-description {
+	font-size: 0.85rem;
+}
 
 

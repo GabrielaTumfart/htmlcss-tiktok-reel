@@ -93,8 +93,15 @@ da rimuovere una volta concluso
 }
 
 /* Le mie modifiche */
+
+/* header */
 .reel-header {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 60px;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 .header-link {
@@ -106,4 +113,13 @@ da rimuovere una volta concluso
 .header-link.active, .header-link:hover {
 	opacity: 1;
 }
+
+/* sidebar */
+.sidebar {
+	display: flex;
+	flex-direction: column;
+
+}
+
+
 

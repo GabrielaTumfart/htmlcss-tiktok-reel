@@ -161,8 +161,12 @@ da rimuovere una volta concluso
 	border-radius: 50%;
 }
 
+.reel-item-icon, .menu-item-icon {
+	font-size: 1.8rem;
+}
+
 /* tasto cuore */
-.reel-item-text {
+.reel-item-text, .menu-item-icon {
 	display: block;
 	font-size: 0.7rem;
 }
@@ -181,4 +185,17 @@ da rimuovere una volta concluso
 	font-size: 0.85rem;
 }
 
+/* nav */
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.nav-menu > .menu-item {
+	flex: 1 1 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}
 

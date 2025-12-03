@@ -77,7 +77,7 @@ Regole per evidenziare i blocchi
 da rimuovere una volta concluso
 --------------------- */
 .debug footer {
-	min-height: 300px;
+	min-height: 100px;
 	border: 2px dashed #fff;
 }
 
@@ -90,6 +90,11 @@ da rimuovere una volta concluso
 .debug .reel-header {
 	min-height: 50px;
 	border: 2px dashed #fff;
+}
+
+.debug, .debug > * {
+	padding: 8px;
+	min-height: dashed #f00;
 }
 
 /* Le mie modifiche */

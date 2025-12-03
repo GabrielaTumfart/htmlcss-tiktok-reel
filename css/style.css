@@ -188,14 +188,18 @@ da rimuovere una volta concluso
 /* nav */
 .nav-menu {
 	display: flex;
-	justify-content: space-between;
 	text-align: center;
 }
 
 .nav-menu > .menu-item {
 	flex: 1 1 0;
-	flex-grow: 1;
+	/* flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 0;
+} */
+}
+
+.menu-item-icon-center {
+	font-size: 5rem;
 }
 
